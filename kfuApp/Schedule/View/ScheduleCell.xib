@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScheduleCell" rowHeight="92" id="KGk-i7-Jjw" customClass="ScheduleCell" customModule="kfuApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2K-RP-hCU">
+                        <rect key="frame" x="9" y="4" width="302" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ny-i7-bCY">
+                                <rect key="frame" x="14" y="17" width="37" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kk6-Oo-KzJ">
+                                <rect key="frame" x="14" y="51" width="37" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название пары" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="iLf-nz-glg">
+                                <rect key="frame" x="65" y="12" width="230" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Учебное здание" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyq-Vp-yXT">
+                                <rect key="frame" x="132" y="48" width="95" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="904" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJA-8g-SNU">
+                                <rect key="frame" x="78" y="48" width="23" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bJA-8g-SNU" firstAttribute="leading" secondItem="kk6-Oo-KzJ" secondAttribute="trailing" constant="27" id="4q7-Ia-SeP"/>
+                            <constraint firstItem="iLf-nz-glg" firstAttribute="top" secondItem="d2K-RP-hCU" secondAttribute="top" constant="12" id="GwD-8R-OvA"/>
+                            <constraint firstItem="3Ny-i7-bCY" firstAttribute="top" secondItem="d2K-RP-hCU" secondAttribute="top" constant="17" id="QCC-y7-98C"/>
+                            <constraint firstItem="iLf-nz-glg" firstAttribute="leading" secondItem="d2K-RP-hCU" secondAttribute="leading" constant="65" id="Td3-tl-ayx"/>
+                            <constraint firstItem="Cyq-Vp-yXT" firstAttribute="top" secondItem="iLf-nz-glg" secondAttribute="bottom" constant="15" id="dkY-uJ-MDC"/>
+                            <constraint firstItem="kk6-Oo-KzJ" firstAttribute="leading" secondItem="d2K-RP-hCU" secondAttribute="leading" constant="14" id="gVC-NN-CT4"/>
+                            <constraint firstItem="bJA-8g-SNU" firstAttribute="top" secondItem="iLf-nz-glg" secondAttribute="bottom" constant="15" id="nEt-cZ-Bo0"/>
+                            <constraint firstItem="3Ny-i7-bCY" firstAttribute="leading" secondItem="d2K-RP-hCU" secondAttribute="leading" constant="14" id="oV1-nL-5sE"/>
+                            <constraint firstAttribute="trailing" secondItem="iLf-nz-glg" secondAttribute="trailing" constant="7" id="qgV-W1-ZmH"/>
+                            <constraint firstItem="Cyq-Vp-yXT" firstAttribute="leading" secondItem="bJA-8g-SNU" secondAttribute="trailing" constant="31" id="t5h-VD-nAA"/>
+                            <constraint firstAttribute="bottom" secondItem="kk6-Oo-KzJ" secondAttribute="bottom" constant="17" id="yPB-Xs-9ok"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d2K-RP-hCU" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7kX-M3-hBr"/>
+                    <constraint firstAttribute="trailing" secondItem="d2K-RP-hCU" secondAttribute="trailing" constant="9" id="D71-JI-WKR"/>
+                    <constraint firstItem="d2K-RP-hCU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="WWI-HK-gOm"/>
+                    <constraint firstItem="d2K-RP-hCU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="onr-5D-rp5"/>
+                    <constraint firstAttribute="bottom" secondItem="d2K-RP-hCU" secondAttribute="bottom" constant="4" id="x4P-c5-PQE"/>
+                    <constraint firstItem="d2K-RP-hCU" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="zO3-d6-zSW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="beginTimeScheduleLabel" destination="3Ny-i7-bCY" id="3Xz-V5-utd"/>
+                <outlet property="buildingNameScheduleLabel" destination="Cyq-Vp-yXT" id="sY8-FE-CbR"/>
+                <outlet property="endTimeScheduleLabel" destination="kk6-Oo-KzJ" id="p5J-f4-2Zh"/>
+                <outlet property="numAuditoriumScheduleLabel" destination="bJA-8g-SNU" id="7Xj-VZ-Fxd"/>
+                <outlet property="scheduleNameLabel" destination="iLf-nz-glg" id="cDL-sc-Oth"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="107.8125"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7399625E7DF13E883B1AA58D /* Pods_kfuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B305535F267A9AB38AC308AE /* Pods_kfuApp.framework */; };
+		DA0023862496669400B76EFB /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0023852496669400B76EFB /* ScheduleTableViewController.swift */; };
+		DA0023892496675800B76EFB /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0023872496675800B76EFB /* ScheduleCell.swift */; };
+		DA00238A2496675800B76EFB /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0023882496675800B76EFB /* ScheduleCell.xib */; };
+		DA00238E2496A98100B76EFB /* ScheduleMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00238D2496A98100B76EFB /* ScheduleMainViewController.swift */; };
+		DA0023902496AB5300B76EFB /* SchedulePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00238F2496AB5300B76EFB /* SchedulePageViewController.swift */; };
+		DA00239E24975B3100B76EFB /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00239D24975B3100B76EFB /* ScheduleModel.swift */; };
+		DA005C8E249FF71A0074F66F /* PointsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA005C8D249FF71A0074F66F /* PointsModel.swift */; };
+		DA005C9324A008730074F66F /* myPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA005C9224A008730074F66F /* myPointsViewController.swift */; };
+		DA00FA0324A102F600C6B4FE /* myPointsDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00FA0224A102F600C6B4FE /* myPointsDataTableViewController.swift */; };
+		DA00FA0524A1103400C6B4FE /* myPointsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00FA0424A1103400C6B4FE /* myPointsPageViewController.swift */; };
+		DA00FA0824A1F6BD00C6B4FE /* SpravkaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00FA0724A1F6BD00C6B4FE /* SpravkaModel.swift */; };
+		DA00FA0A24A22CCC00C6B4FE /* ZakazViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00FA0924A22CCC00C6B4FE /* ZakazViewController.swift */; };
+		DA00FA0C24A22F0900C6B4FE /* RegionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00FA0B24A22F0900C6B4FE /* RegionsTableViewController.swift */; };
+		DA00FA0E24A2DE5100C6B4FE /* NewZakazViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00FA0D24A2DE5100C6B4FE /* NewZakazViewController.swift */; };
+		DA0145CD248E2352006509B3 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0145CC248E2352006509B3 /* InfoTableViewController.swift */; };
+		DA0145CF248E3EC4006509B3 /* DetailPointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0145CE248E3EC4006509B3 /* DetailPointsViewController.swift */; };
+		DA14098F242B30FC0097F65F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14098E242B30FC0097F65F /* TabBarViewController.swift */; };
+		DA479E09240ED46C0045C117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA479E08240ED46C0045C117 /* AppDelegate.swift */; };
+		DA479E0B240ED46C0045C117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA479E0A240ED46C0045C117 /* ViewController.swift */; };
+		DA479E0E240ED46C0045C117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA479E0C240ED46C0045C117 /* Main.storyboard */; };
+		DA479E10240ED4720045C117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA479E0F240ED4720045C117 /* Assets.xcassets */; };
+		DA479E13240ED4720045C117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA479E11240ED4720045C117 /* LaunchScreen.storyboard */; };
+		DA479E1B240ED53A0045C117 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA479E1A240ED53A0045C117 /* Model.swift */; };
+		DA5F6351247B21DC00164E7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F6350247B21DC00164E7C /* LoginViewController.swift */; };
+		DA5F6353247D464000164E7C /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F6352247D464000164E7C /* PersonInfoViewController.swift */; };
+		DAC188E52488284C00C65003 /* WaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC188E42488284C00C65003 /* WaitViewController.swift */; };
+		DAC188E72488533300C65003 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC188E62488533300C65003 /* PointsViewController.swift */; };
+		DAC188E9248890DA00C65003 /* PointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC188E8248890DA00C65003 /* PointTableViewCell.swift */; };
+		DAF33B4E242A25C0004C259A /* GetGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF33B4D242A25C0004C259A /* GetGroupViewController.swift */; };
+		DAFDD3972480B2AB00A46431 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDD3962480B2AB00A46431 /* ScheduleTableViewCell.swift */; };
+		DAFE0FA024865A5A00DBEB34 /* DetailScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE0F9F24865A5A00DBEB34 /* DetailScheduleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DC116483278FD18BD3DC77D /* Pods-kfuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kfuApp.debug.xcconfig"; path = "Target Support Files/Pods-kfuApp/Pods-kfuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B305535F267A9AB38AC308AE /* Pods_kfuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kfuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0023852496669400B76EFB /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		DA0023872496675800B76EFB /* ScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		DA0023882496675800B76EFB /* ScheduleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
+		DA00238D2496A98100B76EFB /* ScheduleMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMainViewController.swift; sourceTree = "<group>"; };
+		DA00238F2496AB5300B76EFB /* SchedulePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulePageViewController.swift; sourceTree = "<group>"; };
+		DA00239D24975B3100B76EFB /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		DA005C8D249FF71A0074F66F /* PointsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsModel.swift; sourceTree = "<group>"; };
+		DA005C9224A008730074F66F /* myPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPointsViewController.swift; sourceTree = "<group>"; };
+		DA00FA0224A102F600C6B4FE /* myPointsDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPointsDataTableViewController.swift; sourceTree = "<group>"; };
+		DA00FA0424A1103400C6B4FE /* myPointsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPointsPageViewController.swift; sourceTree = "<group>"; };
+		DA00FA0724A1F6BD00C6B4FE /* SpravkaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpravkaModel.swift; sourceTree = "<group>"; };
+		DA00FA0924A22CCC00C6B4FE /* ZakazViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakazViewController.swift; sourceTree = "<group>"; };
+		DA00FA0B24A22F0900C6B4FE /* RegionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsTableViewController.swift; sourceTree = "<group>"; };
+		DA00FA0D24A2DE5100C6B4FE /* NewZakazViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewZakazViewController.swift; sourceTree = "<group>"; };
+		DA0145CC248E2352006509B3 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		DA0145CE248E3EC4006509B3 /* DetailPointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPointsViewController.swift; sourceTree = "<group>"; };
+		DA14098E242B30FC0097F65F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DA479E05240ED46C0045C117 /* kfuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kfuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA479E08240ED46C0045C117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA479E0A240ED46C0045C117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA479E0D240ED46C0045C117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA479E0F240ED4720045C117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA479E12240ED4720045C117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA479E14240ED4720045C117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA479E1A240ED53A0045C117 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DA5F6350247B21DC00164E7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA5F6352247D464000164E7C /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
+		DAC188E42488284C00C65003 /* WaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitViewController.swift; sourceTree = "<group>"; };
+		DAC188E62488533300C65003 /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		DAC188E8248890DA00C65003 /* PointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointTableViewCell.swift; sourceTree = "<group>"; };
+		DAF33B4D242A25C0004C259A /* GetGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGroupViewController.swift; sourceTree = "<group>"; };
+		DAFDD3962480B2AB00A46431 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		DAFE0F9F24865A5A00DBEB34 /* DetailScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScheduleViewController.swift; sourceTree = "<group>"; };
+		EF6D684A0FCDA1257A80217B /* Pods-kfuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kfuApp.release.xcconfig"; path = "Target Support Files/Pods-kfuApp/Pods-kfuApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA479E02240ED46C0045C117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7399625E7DF13E883B1AA58D /* Pods_kfuApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0AC33596F952FD8B795B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC116483278FD18BD3DC77D /* Pods-kfuApp.debug.xcconfig */,
+				EF6D684A0FCDA1257A80217B /* Pods-kfuApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C513CC234D78A444A260BA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B305535F267A9AB38AC308AE /* Pods_kfuApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0023912496BE4700B76EFB /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				DA0023922496BEA900B76EFB /* View */,
+				DA00239C24975A7100B76EFB /* Model */,
+				DA00238F2496AB5300B76EFB /* SchedulePageViewController.swift */,
+				DA00238D2496A98100B76EFB /* ScheduleMainViewController.swift */,
+				DAFE0F9F24865A5A00DBEB34 /* DetailScheduleViewController.swift */,
+				DA0023852496669400B76EFB /* ScheduleTableViewController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		DA0023922496BEA900B76EFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA0023872496675800B76EFB /* ScheduleCell.swift */,
+				DA0023882496675800B76EFB /* ScheduleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA0023932496BEFF00B76EFB /* PersonMainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DA0145CC248E2352006509B3 /* InfoTableViewController.swift */,
+				DA5F6352247D464000164E7C /* PersonInfoViewController.swift */,
+			);
+			path = PersonMainMenu;
+			sourceTree = "<group>";
+		};
+		DA0023942496C02100B76EFB /* Schedule.old */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDD3962480B2AB00A46431 /* ScheduleTableViewCell.swift */,
+				DA479E0A240ED46C0045C117 /* ViewController.swift */,
+			);
+			path = Schedule.old;
+			sourceTree = "<group>";
+		};
+		DA0023952496C08600B76EFB /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F6350247B21DC00164E7C /* LoginViewController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		DA0023962496C0D300B76EFB /* UnauthorizedScreens */ = {
+			isa = PBXGroup;
+			children = (
+				DAF33B4D242A25C0004C259A /* GetGroupViewController.swift */,
+			);
+			path = UnauthorizedScreens;
+			sourceTree = "<group>";
+		};
+		DA0023972496C12C00B76EFB /* Points */ = {
+			isa = PBXGroup;
+			children = (
+				DA005C8F249FF7850074F66F /* Model */,
+				DA005C9224A008730074F66F /* myPointsViewController.swift */,
+				DA00FA0424A1103400C6B4FE /* myPointsPageViewController.swift */,
+				DA00FA0224A102F600C6B4FE /* myPointsDataTableViewController.swift */,
+				DAC188E8248890DA00C65003 /* PointTableViewCell.swift */,
+			);
+			path = Points;
+			sourceTree = "<group>";
+		};
+		DA0023982496C15B00B76EFB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DA14098E242B30FC0097F65F /* TabBarViewController.swift */,
+				DAC188E42488284C00C65003 /* WaitViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DA00239A2496C19700B76EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA479E1A240ED53A0045C117 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA00239C24975A7100B76EFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA00239D24975B3100B76EFB /* ScheduleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA005C8F249FF7850074F66F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA005C8D249FF71A0074F66F /* PointsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA005C9124A0079A0074F66F /* Points.old */ = {
+			isa = PBXGroup;
+			children = (
+				DA0145CE248E3EC4006509B3 /* DetailPointsViewController.swift */,
+				DAC188E62488533300C65003 /* PointsViewController.swift */,
+			);
+			path = Points.old;
+			sourceTree = "<group>";
+		};
+		DA00FA0624A1F58300C6B4FE /* ZakazSpravok */ = {
+			isa = PBXGroup;
+			children = (
+				DA00FA0724A1F6BD00C6B4FE /* SpravkaModel.swift */,
+				DA00FA0D24A2DE5100C6B4FE /* NewZakazViewController.swift */,
+				DA00FA0924A22CCC00C6B4FE /* ZakazViewController.swift */,
+				DA00FA0B24A22F0900C6B4FE /* RegionsTableViewController.swift */,
+			);
+			path = ZakazSpravok;
+			sourceTree = "<group>";
+		};
+		DA479DFC240ED46C0045C117 = {
+			isa = PBXGroup;
+			children = (
+				DA479E07240ED46C0045C117 /* kfuApp */,
+				DA479E06240ED46C0045C117 /* Products */,
+				1C0AC33596F952FD8B795B13 /* Pods */,
+				C513CC234D78A444A260BA5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA479E06240ED46C0045C117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA479E05240ED46C0045C117 /* kfuApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA479E07240ED46C0045C117 /* kfuApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA005C9124A0079A0074F66F /* Points.old */,
+				DA0023962496C0D300B76EFB /* UnauthorizedScreens */,
+				DA0023952496C08600B76EFB /* LoginScreen */,
+				DA0023912496BE4700B76EFB /* Schedule */,
+				DA0023932496BEFF00B76EFB /* PersonMainMenu */,
+				DA0023942496C02100B76EFB /* Schedule.old */,
+				DA0023972496C12C00B76EFB /* Points */,
+				DA00FA0624A1F58300C6B4FE /* ZakazSpravok */,
+				DA0023982496C15B00B76EFB /* Other */,
+				DA00239A2496C19700B76EFB /* Models */,
+				DA479E08240ED46C0045C117 /* AppDelegate.swift */,
+				DA479E0C240ED46C0045C117 /* Main.storyboard */,
+				DA479E0F240ED4720045C117 /* Assets.xcassets */,
+				DA479E11240ED4720045C117 /* LaunchScreen.storyboard */,
+				DA479E14240ED4720045C117 /* Info.plist */,
+			);
+			path = kfuApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA479E04240ED46C0045C117 /* kfuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA479E17240ED4720045C117 /* Build configuration list for PBXNativeTarget "kfuApp" */;
+			buildPhases = (
+				D1E93B6650C7F712628D584A /* [CP] Check Pods Manifest.lock */,
+				DA479E01240ED46C0045C117 /* Sources */,
+				DA479E02240ED46C0045C117 /* Frameworks */,
+				DA479E03240ED46C0045C117 /* Resources */,
+				7719635BEA89FC1470FD51EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kfuApp;
+			productName = kfuApp;
+			productReference = DA479E05240ED46C0045C117 /* kfuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA479DFD240ED46C0045C117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = gafiyatullinsamat;
+				TargetAttributes = {
+					DA479E04240ED46C0045C117 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = DA479E00240ED46C0045C117 /* Build configuration list for PBXProject "kfuApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA479DFC240ED46C0045C117;
+			productRefGroup = DA479E06240ED46C0045C117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA479E04240ED46C0045C117 /* kfuApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA479E03240ED46C0045C117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA479E13240ED4720045C117 /* LaunchScreen.storyboard in Resources */,
+				DA479E10240ED4720045C117 /* Assets.xcassets in Resources */,
+				DA00238A2496675800B76EFB /* ScheduleCell.xib in Resources */,
+				DA479E0E240ED46C0045C117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7719635BEA89FC1470FD51EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kfuApp/Pods-kfuApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kfuApp/Pods-kfuApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kfuApp/Pods-kfuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E93B6650C7F712628D584A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kfuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA479E01240ED46C0045C117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA00FA0E24A2DE5100C6B4FE /* NewZakazViewController.swift in Sources */,
+				DA00FA0A24A22CCC00C6B4FE /* ZakazViewController.swift in Sources */,
+				DA00238E2496A98100B76EFB /* ScheduleMainViewController.swift in Sources */,
+				DA5F6351247B21DC00164E7C /* LoginViewController.swift in Sources */,
+				DAC188E72488533300C65003 /* PointsViewController.swift in Sources */,
+				DA479E1B240ED53A0045C117 /* Model.swift in Sources */,
+				DA479E0B240ED46C0045C117 /* ViewController.swift in Sources */,
+				DAC188E9248890DA00C65003 /* PointTableViewCell.swift in Sources */,
+				DA005C8E249FF71A0074F66F /* PointsModel.swift in Sources */,
+				DA5F6353247D464000164E7C /* PersonInfoViewController.swift in Sources */,
+				DA0023862496669400B76EFB /* ScheduleTableViewController.swift in Sources */,
+				DA479E09240ED46C0045C117 /* AppDelegate.swift in Sources */,
+				DA14098F242B30FC0097F65F /* TabBarViewController.swift in Sources */,
+				DA00FA0C24A22F0900C6B4FE /* RegionsTableViewController.swift in Sources */,
+				DA0023902496AB5300B76EFB /* SchedulePageViewController.swift in Sources */,
+				DAF33B4E242A25C0004C259A /* GetGroupViewController.swift in Sources */,
+				DA0023892496675800B76EFB /* ScheduleCell.swift in Sources */,
+				DA00FA0824A1F6BD00C6B4FE /* SpravkaModel.swift in Sources */,
+				DA00FA0324A102F600C6B4FE /* myPointsDataTableViewController.swift in Sources */,
+				DAFE0FA024865A5A00DBEB34 /* DetailScheduleViewController.swift in Sources */,
+				DA0145CF248E3EC4006509B3 /* DetailPointsViewController.swift in Sources */,
+				DA0145CD248E2352006509B3 /* InfoTableViewController.swift in Sources */,
+				DAC188E52488284C00C65003 /* WaitViewController.swift in Sources */,
+				DA00239E24975B3100B76EFB /* ScheduleModel.swift in Sources */,
+				DAFDD3972480B2AB00A46431 /* ScheduleTableViewCell.swift in Sources */,
+				DA005C9324A008730074F66F /* myPointsViewController.swift in Sources */,
+				DA00FA0524A1103400C6B4FE /* myPointsPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA479E0C240ED46C0045C117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA479E0D240ED46C0045C117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA479E11240ED4720045C117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA479E12240ED4720045C117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA479E15240ED4720045C117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA479E16240ED4720045C117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA479E18240ED4720045C117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC116483278FD18BD3DC77D /* Pods-kfuApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WDXJP3T96;
+				INFOPLIST_FILE = kfuApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kpfu.kfuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA479E19240ED4720045C117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6D684A0FCDA1257A80217B /* Pods-kfuApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WDXJP3T96;
+				INFOPLIST_FILE = kfuApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kpfu.kfuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA479E00240ED46C0045C117 /* Build configuration list for PBXProject "kfuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA479E15240ED4720045C117 /* Debug */,
+				DA479E16240ED4720045C117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA479E17240ED4720045C117 /* Build configuration list for PBXNativeTarget "kfuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA479E18240ED4720045C117 /* Debug */,
+				DA479E19240ED4720045C117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA479DFD240ED46C0045C117 /* Project object */;
+}
